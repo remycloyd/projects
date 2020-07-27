@@ -1,3 +1,7 @@
+# Jeremy Cloyd
+#Veteran's disability Calculator
+
+
 percentAble = 100.00
 percentages = list(map(int, input("Please enter each percentage rating in decreasing order (separate with spaces) ").split()))
 x = 1
