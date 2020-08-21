@@ -1,5 +1,6 @@
 # Jeremy Cloyd
 #Veteran's disability Calculator
+#need to fix percentage needed functionality for 100% rating
 
 
 percentAble = 100.00
