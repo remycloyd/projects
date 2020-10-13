@@ -1,1 +1,3 @@
-this is a calculator designed to aid veterans in calculating and understanding their current and projected VA disability rating. I have added some functionality to help project what aditional ratings would be necessary to achieve a higher rating than possessed. will improve math for accuracy in later updates.
+this is a calculator designed to aid veterans in calculating and understanding their current and projected VA disability rating.
+I have added some functionality to help project what aditional ratings would be necessary to achieve a higher rating than possessed.
+will improve math for accuracy in later updates.

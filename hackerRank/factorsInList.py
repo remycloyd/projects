@@ -1,11 +1,7 @@
 def factorFinder(arr, number):
-    newList = []
-    for i in sorted(arr):
-        if i <= 20:
-            newList.append(i)
-    for i in newList:
-        x = int(number/i)
-        if x in newList:
+    for i in arr:
+        x = (number/i)
+        if x in arr:
             print(str(x)+" and the number "+str(i)+" are factors of " + str(number))
 
 

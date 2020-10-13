@@ -18,7 +18,7 @@ def gs(men, women, pref):
         rank[w] = {}
         i = 1
         for m in pref[w]:
-            rank[w][m]=i
+            rank[w][m] = i
             i += 1
     # create a "pointer" to the next woman to propose
     prefptr = {}
