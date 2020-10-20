@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackerRank/arrayRotate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/commonFactorsArrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/isRotation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/mine_sweeper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/mostFreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/nonRepeatingChar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/oneAwayStrings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerRank/linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROGproj/gs.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROGproj/gs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VeteranDisabilityCalculator/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VeteranDisabilityCalculator/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerRank/factorsInList.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/factorsInList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project4/HW5_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project4/HW5_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerRank/arrayRotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/arrayRotate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -54,7 +45,7 @@
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.arrayRotate">
+  <component name="RunManager" selected="Python.linked_list">
     <configuration name="arrayRotate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="isRotation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/isRotation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linked_list" />
         <item itemvalue="Python.arrayRotate" />
         <item itemvalue="Python.mine_sweeper" />
         <item itemvalue="Python.oneAwayStrings" />
         <item itemvalue="Python.nonRepeatingChar" />
-        <item itemvalue="Python.isRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -194,29 +185,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602284635306" />
-    <state width="1659" height="361" key="GridCell.Tab.0.bottom" timestamp="1602623509616">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="772" height="271" key="GridCell.Tab.0.bottom" timestamp="1602706800581">
+      <screen x="0" y="0" width="1680" height="1003" />
     </state>
-    <state width="1377" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1602465522163" />
-    <state width="1659" height="361" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602623509616" />
+    <state width="772" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800581" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602704309527" />
     <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state width="1659" height="361" key="GridCell.Tab.0.center" timestamp="1602623509614">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="772" height="271" key="GridCell.Tab.0.center" timestamp="1602706800581">
+      <screen x="0" y="0" width="1680" height="1003" />
     </state>
-    <state width="1377" height="267" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1602465522162" />
-    <state width="1659" height="361" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602623509614" />
+    <state width="772" height="271" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800581" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602704309526" />
     <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="1659" height="361" key="GridCell.Tab.0.left" timestamp="1602623509614">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="772" height="271" key="GridCell.Tab.0.left" timestamp="1602706800580">
+      <screen x="0" y="0" width="1680" height="1003" />
     </state>
-    <state width="1377" height="267" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1602465522161" />
-    <state width="1659" height="361" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602623509614" />
+    <state width="772" height="271" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800580" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602704309525" />
     <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="1659" height="361" key="GridCell.Tab.0.right" timestamp="1602623509615">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="772" height="271" key="GridCell.Tab.0.right" timestamp="1602706800581">
+      <screen x="0" y="0" width="1680" height="1003" />
     </state>
-    <state width="1377" height="267" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1602465522162" />
-    <state width="1659" height="361" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602623509615" />
+    <state width="772" height="271" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800581" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602704309526" />
     <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602616928367">
       <screen x="0" y="0" width="1680" height="1003" />
