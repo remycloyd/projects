@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackerRank/LinkedQueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/LinkedStack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerRank/listComp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerRank/DoublyLinkedBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerRank/LinkedQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/LinkedQueue.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -38,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -46,8 +47,8 @@
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.listComp">
-    <configuration name="arrayRotate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.LinkedQueue">
+    <configuration name="DoublyLinkedBase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +60,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/arrayRotate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/DoublyLinkedBase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedQueue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/LinkedQueue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedStack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/LinkedStack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,55 +153,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mine_sweeper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/mine_sweeper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="oneAwayStrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/oneAwayStrings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LinkedQueue" />
+        <item itemvalue="Python.LinkedStack" />
+        <item itemvalue="Python.DoublyLinkedBase" />
         <item itemvalue="Python.listComp" />
         <item itemvalue="Python.linked_list" />
-        <item itemvalue="Python.arrayRotate" />
-        <item itemvalue="Python.mine_sweeper" />
-        <item itemvalue="Python.oneAwayStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -186,33 +187,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602284635306" />
-    <state width="1659" height="335" key="GridCell.Tab.0.bottom" timestamp="1603208847744">
+    <state width="668" height="950" key="GridCell.Tab.0.bottom" timestamp="1603869952619">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="772" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800581" />
-    <state width="1659" height="335" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603208847744" />
+    <state width="495" height="953" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1603439196444" />
+    <state width="668" height="950" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603869952619" />
     <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state width="1659" height="335" key="GridCell.Tab.0.center" timestamp="1603208847743">
+    <state width="668" height="950" key="GridCell.Tab.0.center" timestamp="1603869952618">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="772" height="271" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800581" />
-    <state width="1659" height="335" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603208847743" />
+    <state width="495" height="953" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1603439196444" />
+    <state width="668" height="950" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603869952618" />
     <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="1659" height="335" key="GridCell.Tab.0.left" timestamp="1603208847743">
+    <state width="668" height="950" key="GridCell.Tab.0.left" timestamp="1603869952617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="772" height="271" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800580" />
-    <state width="1659" height="335" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603208847743" />
+    <state width="495" height="953" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1603439196443" />
+    <state width="668" height="950" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603869952617" />
     <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="1659" height="335" key="GridCell.Tab.0.right" timestamp="1603208847744">
+    <state width="668" height="950" key="GridCell.Tab.0.right" timestamp="1603869952619">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="772" height="271" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1602706800581" />
-    <state width="1659" height="335" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603208847744" />
+    <state width="495" height="953" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1603439196444" />
+    <state width="668" height="950" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603869952619" />
     <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602616928367">
-      <screen x="0" y="0" width="1680" height="1003" />
+    <state x="433" y="218" key="SettingsEditor" timestamp="1603438988166">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603438988166" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603438730009">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603438730009" />
+    <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603836504010">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1003@0.0.1680.1003" timestamp="1602616928367" />
+    <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603836504010" />
   </component>
 </project>

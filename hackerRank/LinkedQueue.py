@@ -10,7 +10,7 @@ class LinkedQueue:  # fifo queue implementation using a singly linked list for s
             self._next = next               # ref to next node
 
     def __init__(self):    # create empty queue
-        self._head = None
+        self.head = None
         self._tail = None
         self._size = 0
 
@@ -23,13 +23,13 @@ class LinkedQueue:  # fifo queue implementation using a singly linked list for s
     def first(self):  # return but do not remove first element in queue
         if self.is_empty():
             raise Empty('your shit is empty my G')
-        return self._head._element      # front is aligned with head of list
+        return self.head.element      # front is aligned with head of list
 
     def dequeue(self):  # remove and return the first element of the list.
         if self.is_empty():
             raise Empty('your shit is empty my G')
-        x = self._head._element
-        self._head = self._head._next
+        x = self.head.element
+        self.head = self.head.next
         self._size -= 1
         if self.is_empty():          # special case: queue is now empty
             self._tail._next = None  # previous head was also tail
@@ -38,8 +38,54 @@ class LinkedQueue:  # fifo queue implementation using a singly linked list for s
     def enqueue(self, e):
         newest = self._Node(e, None)   # create link to newest node
         if self.is_empty():
-            self._head = newest        # special case: previously empty, so new node is now head
+            self.head = newest        # special case: previously empty, so new node is now head
         else:
             self._tail._next = newest  # if queue not empty then new node is new tail
         self._tail = newest            # update instance ref to tail node
         self._size += 1
+
+    def insertAtPos(self, position, data):
+        if position > self._size:
+            raise IndexError
+        tHead = self.head
+        if self.head is None:                # if list is empty
+            print("inserting node into empty List" + "\n")
+            newest = self._Node(data, None)  # create node
+            self.head = newest               # set head to point to this new node
+            self._tail = newest
+            self._size += 1
+        elif position == 0:                  # if inserting before head of nonEmpty list
+            newest = self._Node(data, None)  # create node
+            newest._next = self.head
+            self.head._next = newest
+            self._size += 1
+        else:
+            for i in range(position, 0, -1):
+                if i == 1:
+                    newest = self._Node(data, None)
+                    newest._next = tHead._next
+                    tHead._next = newest
+                    break
+                tHead = tHead._next
+        return self.head
+
+    @staticmethod
+    def _list_print(self, node):  # Print the Doubly Linked list
+        while node is not None:
+            if node._element is None:
+                node = node._next
+            else:
+                print(node._element)
+                node = node._next
+
+
+slList = LinkedQueue()
+slList.insertAtPos(1, "injected Node!!!!")
+slList.enqueue("A")
+slList.enqueue("B")
+slList.enqueue("C")
+# slList.insertAtPos(3, "injected Node!!!!")
+slList._list_print(slList, slList.head)
+
+# for i in range(10, 0, -1):
+#     print(i)
