@@ -47,9 +47,9 @@ class LinkedQueue:  # fifo queue implementation using a singly linked list for s
     def insertAtPos(self, position, data):
         if position > self._size:
             raise IndexError
-        tHead = self.head
+        newHead = self.head
         if self.head is None:                # if list is empty
-            print("inserting node into empty List" + "\n")
+            # print("inserting node into empty List" + "\n")
             newest = self._Node(data, None)  # create node
             self.head = newest               # set head to point to this new node
             self._tail = newest
@@ -57,17 +57,18 @@ class LinkedQueue:  # fifo queue implementation using a singly linked list for s
         elif position == 0:                  # if inserting before head of nonEmpty list
             newest = self._Node(data, None)  # create node
             newest._next = self.head
-            self.head._next = newest
+            self.head = newest
             self._size += 1
         else:
             for i in range(position, 0, -1):
                 if i == 1:
                     newest = self._Node(data, None)
-                    newest._next = tHead._next
-                    tHead._next = newest
+                    newest._next = newHead._next
+                    newHead._next = newest
+                    self._size += 1
                     break
-                tHead = tHead._next
-        return self.head
+                newHead = newHead._next
+        return newHead
 
     @staticmethod
     def _list_print(self, node):  # Print the Doubly Linked list
@@ -80,12 +81,8 @@ class LinkedQueue:  # fifo queue implementation using a singly linked list for s
 
 
 slList = LinkedQueue()
-slList.insertAtPos(1, "injected Node!!!!")
-slList.enqueue("A")
-slList.enqueue("B")
-slList.enqueue("C")
-# slList.insertAtPos(3, "injected Node!!!!")
+slList.enqueue("1")
+slList.enqueue("2")
+slList.enqueue("4")
+slList.insertAtPos(2, "3")
 slList._list_print(slList, slList.head)
-
-# for i in range(10, 0, -1):
-#     print(i)
