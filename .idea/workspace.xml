@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hackerRank/duckTyping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerRank/fizzbuzz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerRank/LinkedQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/LinkedQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerRank/linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/linked_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,35 +41,14 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LinkedQueue">
-    <configuration name="DoublyLinkedBase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/DoublyLinkedBase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.square">
     <configuration name="LinkedQueue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +70,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinkedStack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Veterans_Disability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VeteranDisabilityCalculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/LinkedStack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/fizzbuzz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listComp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/listComp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LinkedQueue" />
-        <item itemvalue="Python.LinkedStack" />
-        <item itemvalue="Python.DoublyLinkedBase" />
-        <item itemvalue="Python.listComp" />
+        <item itemvalue="Python.square" />
+        <item itemvalue="Python.Veterans_Disability" />
         <item itemvalue="Python.linked_list" />
+        <item itemvalue="Python.fizzbuzz" />
+        <item itemvalue="Python.LinkedQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -174,46 +176,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="550" y="356" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1602370894200" />
-    <state x="526" y="140" key="#Veterans_Disability" timestamp="1595837649655">
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604449253661">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="526" y="140" key="#Veterans_Disability/0.0.1680.1050@0.0.1680.1050" timestamp="1595837649655" />
-    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601752279766">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601752279766" />
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604449253661" />
     <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1602284635306">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602284635306" />
-    <state width="685" height="950" key="GridCell.Tab.0.bottom" timestamp="1603943429958">
+    <state width="1212" height="950" key="GridCell.Tab.0.bottom" timestamp="1604559188824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="668" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1603937303346" />
-    <state width="685" height="950" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603943429958" />
+    <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
+    <state width="1212" height="950" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604559188824" />
     <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state width="685" height="950" key="GridCell.Tab.0.center" timestamp="1603943429958">
+    <state width="1212" height="950" key="GridCell.Tab.0.center" timestamp="1604559188823">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="668" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1603937303345" />
-    <state width="685" height="950" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603943429958" />
+    <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
+    <state width="1212" height="950" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604559188823" />
     <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="685" height="950" key="GridCell.Tab.0.left" timestamp="1603943429957">
+    <state width="1212" height="950" key="GridCell.Tab.0.left" timestamp="1604559188822">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="668" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1603937303344" />
-    <state width="685" height="950" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603943429957" />
+    <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
+    <state width="1212" height="950" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604559188822" />
     <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="685" height="950" key="GridCell.Tab.0.right" timestamp="1603943429958">
+    <state width="1212" height="950" key="GridCell.Tab.0.right" timestamp="1604559188824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="668" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1603937303346" />
-    <state width="685" height="950" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603943429958" />
+    <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
+    <state width="1212" height="950" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604559188824" />
     <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state x="433" y="218" key="SettingsEditor" timestamp="1603438988166">
+    <state x="433" y="218" key="SettingsEditor" timestamp="1604554329431">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603438988166" />
+    <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604554329431" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603438730009">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -223,5 +221,9 @@
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1003@0.0.1680.1003" timestamp="1602616928367" />
     <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603836504010" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604087861261">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604087861261" />
   </component>
 </project>
