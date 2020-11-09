@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackerRank/phoneStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerRank/Radius.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerRank/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" beforeDir="false" afterPath="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +41,35 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.phoneStrings">
+  <component name="RunManager" selected="Python.Veterans_Disability">
+    <configuration name="Radius" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/Radius.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Veterans_Disability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,27 +83,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Veterans_Disability" />
+        <item itemvalue="Python.Radius" />
         <item itemvalue="Python.phoneStrings" />
         <item itemvalue="Python.palindrome" />
         <item itemvalue="Python.square" />
-        <item itemvalue="Python.Veterans_Disability" />
-        <item itemvalue="Python.linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +172,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="474" y="210" key="#Inspections" timestamp="1604911201338">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="474" y="210" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1604911201338" />
     <state x="550" y="356" key="#Notifications" timestamp="1602370894201">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -183,34 +188,34 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602284635306" />
-    <state width="622" height="950" key="GridCell.Tab.0.bottom" timestamp="1604649430417">
+    <state width="580" height="931" key="GridCell.Tab.0.bottom" timestamp="1604913022281">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="622" height="950" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604649430417" />
+    <state width="580" height="931" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022281" />
     <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state width="622" height="950" key="GridCell.Tab.0.center" timestamp="1604649430416">
+    <state width="580" height="931" key="GridCell.Tab.0.center" timestamp="1604913022279">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="622" height="950" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604649430416" />
+    <state width="580" height="931" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022279" />
     <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="622" height="950" key="GridCell.Tab.0.left" timestamp="1604649430415">
+    <state width="580" height="931" key="GridCell.Tab.0.left" timestamp="1604913022279">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="622" height="950" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604649430415" />
+    <state width="580" height="931" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022279" />
     <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="622" height="950" key="GridCell.Tab.0.right" timestamp="1604649430416">
+    <state width="580" height="931" key="GridCell.Tab.0.right" timestamp="1604913022280">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="622" height="950" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604649430416" />
+    <state width="580" height="931" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022280" />
     <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state x="433" y="218" key="SettingsEditor" timestamp="1604554329431">
+    <state x="433" y="218" key="SettingsEditor" timestamp="1604909120719">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604554329431" />
+    <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604909120719" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1604649399350">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -220,6 +225,10 @@
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1003@0.0.1680.1003" timestamp="1602616928367" />
     <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603836504010" />
+    <state x="691" y="453" width="558" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604909105853">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="691" y="453" width="558" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604909105853" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604642249238">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

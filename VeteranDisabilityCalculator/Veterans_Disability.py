@@ -1,39 +1,43 @@
 # Jeremy Cloyd
-#Veteran's disability Calculator
-#need to fix percentage needed functionality for 100% rating
+# Veteran's disability Calculator
+import math
 
-
-percentAble = 100.00
-percentages = list(map(int, input("Please enter each percentage rating in decreasing order (separate with spaces) ").split()))
+able = 100
+ratings = list(map(int, input("Please enter each rating percentage (separate with spaces) \n").split()))
 x = 1
 i = 0
-for item in percentages:
-    print("Disability " + str(x) + " has reduced your ability rating of "
-          + str(percentAble)
-          + " by " + str(percentages[i]) +
-          "% to " + str(percentAble - (percentages[i] * 0.01 * percentAble))
-          + "% able, for a rating impact of "
-          + str(item * 0.01 * percentAble) + "%\n")
-    percentages[i] = (percentages[i] * 0.01)
+for item in ratings:
+    print("Disability #" + str(x) + " has reduced your able-ness of "
+          + str(able)
+          + "% by " + str(ratings[ i ]) +
+          "% to " + str(round(able - (ratings[ i ] * 0.01 * able)))
+          + "% able, for a overall impact of "
+          + str(round(item * 0.01 * able)) + "%\n")
+    ratings[ i ] = (ratings[ i ] * 0.01)
     x += 1
-    percentAble = percentAble - (percentages[i] * percentAble)
+    able = able - (ratings[ i ] * able)
     i += 1
 
+disabled = 100 - able
+print("Total ability remaining: " + str(able) + "\n")
+print("Disability Percentage: " + str(disabled) + "\n")
+print("Disability Rating: " + str(round(100 - able, -1)))
 
-Rating = 100 - percentAble
-print("Total percentage of ability remaining: " + str(percentAble) + "\n")
-print("Actual Disability Percentage: " + str(100-percentAble) + "\n")
-print("Calculated Rating: " + str(round(Rating, -1)))
+question = input("Do you: \n A. want to know how a new rating would impact your percentage? \n B. Want to see what rating you need to get to a higher rating?\n").lower()
+if question == "a":
+    newDis = int(input("What is your projected rating? \n"))
+    newRating = int(round(100 - (newDis * 0.01 * able ), -1 ))
+    print("With an additional rating of "+ str(newDis) + "%, your disability percentage would be "+ str(newRating)+"%")
 
-Desired = int(input("What Rating do you desire? \n"))
-Desired = Desired - 5
-Needed = Desired - Rating
-ImpactNeeded = (Needed*100)/Rating
-print("impact needed: " + str(ImpactNeeded))
-PercNeeded = round((ImpactNeeded/(percentAble * 0.01)), -1)
-print("percent needed: " + str(PercNeeded))
-print("You would need another disability rating of at least " +
-      str(PercNeeded) + " to achieve the needed rating impact of " +
-      str(ImpactNeeded) + "% and attain a calculated rating of " +
-      str(Desired+5))
+elif question == "b":
+    up_rating = (int(input("Please enter a higher rating. \n"))) - 5  # this is the rating we will calculate how to arrive at
+    Needed = up_rating - disabled  # the increase in rating needed to achieve the new rating
+    ImpactNeeded = round((Needed * 100) / disabled, 3)
+    PercNeeded = (up_rating - able)
 
+    print("To obtain a " + str(up_rating + 5) + "% rating you must increase your true rating by " + str(
+        round(Needed, 3)) + "%")
+    print("You would need another disability rating of at least " +
+          str(math.ceil(Needed / (able / 100) / 10) * 10) + "% to achieve that impact")
+else:
+    exit()
