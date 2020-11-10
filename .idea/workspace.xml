@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackerRank/Radius.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" beforeDir="false" afterPath="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" afterDir="false" />
     </list>
@@ -170,6 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added functionality to allow user to see impact of projected additional VA disability rating. also fixed errors when attempting to calculate needed rating impact to achieve a 100% rating." />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality to allow user to see impact of projected additional VA disability rating. also fixed errors when attempting to calculate needed rating impact to achieve a 100% rating." />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="210" key="#Inspections" timestamp="1604911201338">
@@ -184,42 +184,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604449253661" />
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1602284635306">
+    <state x="417" y="29" key="CommitChangelistDialog2" timestamp="1604913093442">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602284635306" />
-    <state width="580" height="931" key="GridCell.Tab.0.bottom" timestamp="1604913022281">
+    <state x="417" y="29" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1604913093442" />
+    <state width="580" height="931" key="GridCell.Tab.0.bottom" timestamp="1604936070059">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="580" height="931" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022281" />
+    <state width="580" height="931" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604936070059" />
     <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
-    <state width="580" height="931" key="GridCell.Tab.0.center" timestamp="1604913022279">
+    <state width="580" height="931" key="GridCell.Tab.0.center" timestamp="1604936070058">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="580" height="931" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022279" />
+    <state width="580" height="931" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604936070058" />
     <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="580" height="931" key="GridCell.Tab.0.left" timestamp="1604913022279">
+    <state width="580" height="931" key="GridCell.Tab.0.left" timestamp="1604936070057">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="580" height="931" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022279" />
+    <state width="580" height="931" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604936070057" />
     <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046689" />
-    <state width="580" height="931" key="GridCell.Tab.0.right" timestamp="1604913022280">
+    <state width="580" height="931" key="GridCell.Tab.0.right" timestamp="1604936070058">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="580" height="931" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604913022280" />
+    <state width="580" height="931" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604936070058" />
     <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602541046690" />
     <state x="433" y="218" key="SettingsEditor" timestamp="1604909120719">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604909120719" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1604649399350">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1604913108326">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604649399350" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604913108326" />
     <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603836504010">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -1,0 +1,4 @@
+// imsInfo.txt images
+
+// background image
+o background.jpg
