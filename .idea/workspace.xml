@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python Programs/codingInterview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/combinedRating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python Programs/wordBreak.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python Programs/Veterans_Disability.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python Programs/torn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python Programs/combinedRating.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/combinedRating.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +47,8 @@
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.codingInterview">
-    <configuration name="Radius" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.combinedRating">
+    <configuration name="binaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,32 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python Programs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/Radius.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Veterans_Disability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VeteranDisabilityCalculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VeteranDisabilityCalculator/Veterans_Disability.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/binaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,13 +132,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wordBreak" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python Programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/wordBreak.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.combinedRating" />
+        <item itemvalue="Python.wordBreak" />
+        <item itemvalue="Python.binaryTree" />
         <item itemvalue="Python.codingInterview" />
         <item itemvalue="Python.phoneStrings (1)" />
-        <item itemvalue="Python.combinedRating" />
-        <item itemvalue="Python.Veterans_Disability" />
-        <item itemvalue="Python.Radius" />
       </list>
     </recent_temporary>
   </component>
@@ -192,29 +189,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="417" y="29" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1604913093442" />
-    <state width="1659" height="464" key="GridCell.Tab.0.bottom" timestamp="1605277982966">
+    <state width="1659" height="412" key="GridCell.Tab.0.bottom" timestamp="1605356019984">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="1659" height="464" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605277982966" />
+    <state width="1659" height="412" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605356019984" />
     <state width="1076" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
-    <state width="1659" height="464" key="GridCell.Tab.0.center" timestamp="1605277982965">
+    <state width="1659" height="412" key="GridCell.Tab.0.center" timestamp="1605356019983">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="1659" height="464" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605277982965" />
+    <state width="1659" height="412" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605356019983" />
     <state width="1076" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="1659" height="464" key="GridCell.Tab.0.left" timestamp="1605277982964">
+    <state width="1659" height="412" key="GridCell.Tab.0.left" timestamp="1605356019983">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="1659" height="464" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605277982964" />
+    <state width="1659" height="412" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605356019983" />
     <state width="1076" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="1659" height="464" key="GridCell.Tab.0.right" timestamp="1605277982966">
+    <state width="1659" height="412" key="GridCell.Tab.0.right" timestamp="1605356019984">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="1659" height="464" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605277982966" />
+    <state width="1659" height="412" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605356019984" />
     <state width="1076" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
     <state x="433" y="218" key="SettingsEditor" timestamp="1605028304452">
       <screen x="0" y="0" width="1680" height="1050" />
