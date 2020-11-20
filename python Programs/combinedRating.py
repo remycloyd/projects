@@ -5,43 +5,44 @@ singleRatings = {100: 3106.04, 90: 1862.96, 80: 1657.8, 70: 1426.17, 60: 1131.68
 
 marriedRatings = {100:3279.22, 90:2017.96, 80:1795.80, 70:1547.17, 60:1234.68,
                    50:979.43, 40:696.61, 30:486.69, 20:281.27, 10:142.29}
-able = 100
+rawDisabled = 0
+able = 100 - rawDisabled
 ratings = list(map(int, input("Please enter each rating percentage (separate with spaces) \n").split()))
-x = 1
+j = 1
 i = 0
 for item in ratings:
-    print("Disability #" + str(x) + " has reduced your able-ness of "
-          + str(able)
-          + "% by " + str(ratings[ i ]) +
-          "% to " + str(round(able - (ratings[ i ] * 0.01 * able)))
-          + "% able, for a ability impact of "
-          + str(round(item * 0.01 * able)) + "%\n")
-    ratings[ i ] = (ratings[ i ] * 0.01)
-    x += 1
-    able = able - (ratings[ i ] * able)
+    # print("Disability #" + str(j) + " has reduced your able-ness of "
+    #       + str(able)
+    #       + "% by " + str(ratings[ i ]) +
+    #       "% to " + str(round(able - (ratings[ i ] * 0.01 * able)))
+    #       + "% able, for a ability impact of "
+    #       + str(round(item * 0.01 * able)) + "%\n")
+    # j += 1
+    ratings[i] = (ratings[i] * 0.01) # convert ratings into decimal multipliers
+    impact = ratings[i] * able
+    rawDisabled = round(rawDisabled + impact)
+    able = int(able - round(impact, 0))
     i += 1
-rawDisabled = 100 - able
-calcDis = round(100 - able, -1)
-print("Raw Disability Percentage: " + str(rawDisabled))
-print("calculated Disability Rating " + str(calcDis)+ "\n")
 
+calcDis = int(math.floor((rawDisabled*(10 ** -1) + 0.5)) / (10** -1)) # needs to be a multiple of 10 # ---------------problem here, 85 rounding down
+print("Able: %f\nRaw disabled: %f\nCalculated Disability Rating: %s\n" %(able, rawDisabled, calcDis) )
 sYearly = round(singleRatings[calcDis]*12, 2)
-mYearly = round(marriedRatings[calcDis]*12,2)
+mYearly = round(marriedRatings[calcDis]*12, 2)
 for i in singleRatings:
     while calcDis == i:
-        print("Single Monthly rate: "+ '${:,.2f}'.format(singleRatings[i]) + "\nYearly Married Rate: $"+ '${:,.2f}'.format(sYearly) +"\n")
-        print("Married Monthly rate: "+ '${:,.2f}'.format(marriedRatings[i]) + "\nYearly Married Rate: $"+ '${:,.2f}'.format(mYearly))
+        print("Single Monthly rate: "+ '${:,.2f}'.format(singleRatings[i]) + "\nYearly Married Rate: "+ '${:,.2f}'.format(sYearly) +"\n")
+        print("Married Monthly rate: "+ '${:,.2f}'.format(marriedRatings[i]) + "\nYearly Married Rate: "+ '${:,.2f}'.format(mYearly))
         i+=1
 question = input("Do you: \n A. Want to know how a new rating would impact your percentage? \n "
                  "B. Want to see what rating you need to get to a higher rating? \n C. No, I'm good, thank you. \n").lower()
 if question == "a":
     newDis = int(input("What is your projected rating? \n"))
-    newRating = int(round(rawDisabled + (newDis * 0.01 * able ), -1 ))
-    print("With an additional rating of "+ str(newDis) + "%, your disability percentage would be "+ str(newRating)+"%")
-    sYearly = round(singleRatings[newRating]*12, 2)
-    mYearly = round(marriedRatings[newRating]*12,2)
+    calcDis = int(round(calcDis + (newDis * 0.01 * able ), -1 ))
+    print("With an additional rating of "+ str(newDis) + "%, your disability percentage would be "+ str(calcDis)+"%")
+    sYearly = round(singleRatings[calcDis]*12, 2)
+    mYearly = round(marriedRatings[calcDis]*12,2)
     for i in singleRatings:
-        while newRating == i:
+        while calcDis == i:
             print("Single Monthly rate: "+ '${:,.2f}'.format(singleRatings[i]) + "\nYearly Married Rate: $"+ '${:,.2f}'.format(sYearly) +"\n")
             print("Married Monthly rate: "+ '${:,.2f}'.format(marriedRatings[i]) + "\nYearly Married Rate: $"+ '${:,.2f}'.format(mYearly))
             i+=1
