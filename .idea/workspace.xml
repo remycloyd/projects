@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python Programs/divsumPairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python Programs/recordBreaker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python Programs/Radius.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/Radius.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python Programs/Radius.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python Programs/TEST.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/TEST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python Programs/combinedRating.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/combinedRating.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.combinedRating">
+  <component name="RunManager" selected="Python.divsumPairs">
     <configuration name="Radius" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,27 +93,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="codingInterview" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python Programs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/codingInterview.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="combinedRating" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +106,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/combinedRating.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="divsumPairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python Programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/divsumPairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.combinedRating" />
+        <item itemvalue="Python.divsumPairs" />
         <item itemvalue="Python.Radius" />
+        <item itemvalue="Python.combinedRating" />
         <item itemvalue="Python.wordBreak" />
         <item itemvalue="Python.binaryTree" />
-        <item itemvalue="Python.codingInterview" />
       </list>
     </recent_temporary>
   </component>
@@ -190,29 +193,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="38" y="29" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1605478994817" />
-    <state width="1659" height="262" key="GridCell.Tab.0.bottom" timestamp="1605495647153">
+    <state width="1659" height="355" key="GridCell.Tab.0.bottom" timestamp="1606206028748">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="1659" height="262" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605495647153" />
+    <state width="1659" height="355" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028748" />
     <state width="1076" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
-    <state width="1659" height="262" key="GridCell.Tab.0.center" timestamp="1605495647152">
+    <state width="1659" height="355" key="GridCell.Tab.0.center" timestamp="1606206028746">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="1659" height="262" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605495647152" />
+    <state width="1659" height="355" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028746" />
     <state width="1076" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="1659" height="262" key="GridCell.Tab.0.left" timestamp="1605495647151">
+    <state width="1659" height="355" key="GridCell.Tab.0.left" timestamp="1606206028746">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="1659" height="262" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605495647151" />
+    <state width="1659" height="355" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028746" />
     <state width="1076" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="1659" height="262" key="GridCell.Tab.0.right" timestamp="1605495647153">
+    <state width="1659" height="355" key="GridCell.Tab.0.right" timestamp="1606206028747">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="1659" height="262" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605495647153" />
+    <state width="1659" height="355" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028747" />
     <state width="1076" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
     <state x="433" y="218" key="SettingsEditor" timestamp="1605028304452">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -227,10 +230,10 @@
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1003@0.0.1680.1003" timestamp="1602616928367" />
     <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603836504010" />
-    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1605032097935">
+    <state x="539" y="264" width="756" height="522" key="find.popup" timestamp="1606175331555">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="539" y="264" width="602" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605032097935" />
+    <state x="539" y="264" width="756" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606175331555" />
     <state x="691" y="453" width="558" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604909105853">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

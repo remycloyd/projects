@@ -7,17 +7,27 @@ marriedRatings = {100:3279.22, 90:2017.96, 80:1795.80, 70:1547.17, 60:1234.68,
                    50:979.43, 40:696.61, 30:486.69, 20:281.27, 10:142.29}
 rawDisabled = 0
 able = 100 - rawDisabled
-ratings = list(map(int, input("Please enter each rating percentage (separate with spaces) \n").split()))
+def bilateral(x):
+    biDis = 0
+    abl = 100 -biDis
+    for i in range(len(x)):
+        biDis = biDis + ((abl-biDis) * x[i]*.01)
+    biDis = biDis *1.1
+    global able 
+    able -= biDis
+    global rawDisabled
+    rawDisabled += biDis
+
+if input("Do you have any bilateral disabilities: y/n?\n").lower() == "y":
+    biCon = list(map(int,input("please enter the two ratings seperated by a space \n").split()))
+    bilateral(biCon)
+
+ratings = list(map(int, input("Please enter each non biliateral rating percentage (separate with spaces) \n").split()))
 j = 1
 i = 0
 for item in ratings:
-    # print("Disability #" + str(j) + " has reduced your able-ness of "
-    #       + str(able)
-    #       + "% by " + str(ratings[ i ]) +
-    #       "% to " + str(round(able - (ratings[ i ] * 0.01 * able)))
-    #       + "% able, for a ability impact of "
-    #       + str(round(item * 0.01 * able)) + "%\n")
-    # j += 1
+    print("Disability # %d has reduced your able-ness of %d percent by %d percent to %d percent able, for a ability impact of %d percent \n" %(j, able, ratings[ i ], round(able - (ratings[ i ] * 0.01 * able)), round(item * 0.01 * able)))
+    j += 1
     ratings[i] = (ratings[i] * 0.01) # convert ratings into decimal multipliers
     impact = ratings[i] * able
     rawDisabled = round(rawDisabled + impact)
@@ -25,7 +35,8 @@ for item in ratings:
     i += 1
 
 calcDis = int(math.floor((rawDisabled*(10 ** -1) + 0.5)) / (10** -1)) # needs to be a multiple of 10 # ---------------problem here, 85 rounding down
-print("Able: %f\nRaw disabled: %f\nCalculated Disability Rating: %s\n" %(able, rawDisabled, calcDis) )
+# print("Able: %f\nRaw disabled: %f\nCalculated Disability Rating: %s\n" %(able, rawDisabled, calcDis) )
+print("Calculated Disability Rate: %d"%calcDis)
 sYearly = round(singleRatings[calcDis]*12, 2)
 mYearly = round(marriedRatings[calcDis]*12, 2)
 for i in singleRatings:
