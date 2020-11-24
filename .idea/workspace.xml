@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python Programs/divsumPairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/recordBreaker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python Programs/blank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python Programs/genes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python Programs/Radius.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python Programs/TEST.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/TEST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python Programs/combinedRating.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/combinedRating.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.divsumPairs">
+  <component name="RunManager" selected="Python.genes">
     <configuration name="Radius" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="blank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/binaryTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/blank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wordBreak" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="genes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/wordBreak.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/genes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.genes" />
+        <item itemvalue="Python.blank" />
         <item itemvalue="Python.divsumPairs" />
         <item itemvalue="Python.Radius" />
         <item itemvalue="Python.combinedRating" />
-        <item itemvalue="Python.wordBreak" />
-        <item itemvalue="Python.binaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -189,42 +186,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604449253661" />
-    <state x="38" y="29" key="CommitChangelistDialog2" timestamp="1605478994817">
+    <state x="38" y="2" key="CommitChangelistDialog2" timestamp="1606206583644">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="38" y="29" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1605478994817" />
-    <state width="1659" height="355" key="GridCell.Tab.0.bottom" timestamp="1606206028748">
+    <state x="38" y="2" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606206583644" />
+    <state width="1659" height="303" key="GridCell.Tab.0.bottom" timestamp="1606260892329">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="1659" height="355" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028748" />
+    <state width="1659" height="303" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606260892329" />
     <state width="1076" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
-    <state width="1659" height="355" key="GridCell.Tab.0.center" timestamp="1606206028746">
+    <state width="1659" height="303" key="GridCell.Tab.0.center" timestamp="1606260892328">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="1659" height="355" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028746" />
+    <state width="1659" height="303" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606260892328" />
     <state width="1076" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="1659" height="355" key="GridCell.Tab.0.left" timestamp="1606206028746">
+    <state width="1659" height="303" key="GridCell.Tab.0.left" timestamp="1606260892327">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="1659" height="355" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028746" />
+    <state width="1659" height="303" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606260892327" />
     <state width="1076" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="1659" height="355" key="GridCell.Tab.0.right" timestamp="1606206028747">
+    <state width="1659" height="303" key="GridCell.Tab.0.right" timestamp="1606260892329">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="1659" height="355" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606206028747" />
+    <state width="1659" height="303" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606260892329" />
     <state width="1076" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
     <state x="433" y="218" key="SettingsEditor" timestamp="1605028304452">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605028304452" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1605479004048">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606206589319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1605479004048" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606206589319" />
     <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603836504010">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
