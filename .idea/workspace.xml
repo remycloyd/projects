@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="added benchling coding interview quetion implementation &quot;genes&quot;">
-      <change afterPath="$PROJECT_DIR$/python Programs/blank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/bonAppetit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/cat and mouse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/formingMagicSquare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/listGCD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/neighborStates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python Programs/blank.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/blank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python Programs/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/python Programs/palindrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,35 +40,14 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.blank">
-    <configuration name="blank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python Programs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/blank.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.divsumPairs">
     <configuration name="cat and mouse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="formingMagicSquare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="combinedRating" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/formingMagicSquare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/combinedRating.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listGCD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="commonFactorsArrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/listGCD.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/commonFactorsArrays.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="neighborStates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="concatUniqueChars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +123,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/neighborStates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/concatUniqueChars.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="divsumPairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python Programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python Programs/divsumPairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.blank" />
-        <item itemvalue="Python.listGCD" />
-        <item itemvalue="Python.neighborStates" />
-        <item itemvalue="Python.formingMagicSquare" />
+        <item itemvalue="Python.divsumPairs" />
+        <item itemvalue="Python.commonFactorsArrays" />
+        <item itemvalue="Python.concatUniqueChars" />
         <item itemvalue="Python.cat and mouse" />
+        <item itemvalue="Python.combinedRating" />
       </list>
     </recent_temporary>
   </component>
@@ -181,76 +176,5 @@
     <MESSAGE value="added dictionary of pay schedules for each disability rating and logic to access this information for output. &#10;No longer prompts user for marital status, but instead outputs pay scale for both married and single rates on output." />
     <MESSAGE value="added benchling coding interview quetion implementation &quot;genes&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="added benchling coding interview quetion implementation &quot;genes&quot;" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="474" y="210" key="#Inspections" timestamp="1604911201338">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="474" y="210" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1604911201338" />
-    <state x="550" y="356" key="#Notifications" timestamp="1605396411253">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="550" y="356" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1605396411253" />
-    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606754580762">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606754580762" />
-    <state x="38" y="2" key="CommitChangelistDialog2" timestamp="1606261030100">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="38" y="2" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606261030100" />
-    <state width="874" height="918" key="GridCell.Tab.0.bottom" timestamp="1607828683537">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="331" height="881" key="GridCell.Tab.0.bottom/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="874" height="918" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607828683537" />
-    <state width="1076" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
-    <state width="874" height="918" key="GridCell.Tab.0.center" timestamp="1607828683534">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="331" height="881" key="GridCell.Tab.0.center/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="874" height="918" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607828683534" />
-    <state width="1076" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="874" height="918" key="GridCell.Tab.0.left" timestamp="1607828683532">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="331" height="881" key="GridCell.Tab.0.left/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811542" />
-    <state width="874" height="918" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607828683532" />
-    <state width="1076" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855913" />
-    <state width="874" height="918" key="GridCell.Tab.0.right" timestamp="1607828683536">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="331" height="881" key="GridCell.Tab.0.right/0.0.1680.1003@0.0.1680.1003" timestamp="1604088811543" />
-    <state width="874" height="918" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607828683536" />
-    <state width="1076" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605232855914" />
-    <state x="433" y="218" key="SettingsEditor" timestamp="1607741707424">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="433" y="218" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1607741707424" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606261043767">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606261043767" />
-    <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607303256641">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1003@0.0.1680.1003" timestamp="1602616928367" />
-    <state x="638" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607303256641" />
-    <state x="100" y="100" width="1480" height="850" key="dock-window-1" timestamp="1606753676735">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="100" y="100" width="1480" height="850" key="dock-window-1/0.0.1680.1050@0.0.1680.1050" timestamp="1606753676735" />
-    <state x="539" y="264" width="756" height="522" key="find.popup" timestamp="1606175331555">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="539" y="264" width="756" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606175331555" />
-    <state x="691" y="453" width="566" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607472844689">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="691" y="453" width="566" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607472844689" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1607741771133">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607741771133" />
   </component>
 </project>
