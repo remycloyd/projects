@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c48544-9027-4d89-af8e-3f0f178f66c2" name="Default Changelist" comment="added benchling coding interview quetion implementation &quot;genes&quot;">
-      <change afterPath="$PROJECT_DIR$/python Programs/compareProduct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/sumOfPairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python Programs/twoSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
