@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/AWSfluxDetector" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/FluxDetector" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/python Programs/mtgArbEng" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AWSfluxDetector" vcs="" />
+    <mapping directory="$PROJECT_DIR$/FluxDetector" vcs="" />
+    <mapping directory="$PROJECT_DIR$/python Programs/mtgArbEng" vcs="" />
   </component>
 </project>
